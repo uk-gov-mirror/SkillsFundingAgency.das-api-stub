@@ -355,7 +355,7 @@
                         "value": "[variables('uiAppServiceName')]"
                     },
                     "scopedResourceId": {
-                        "value": "[reference(ui-app-insights).outputs.AppInsightsResourceId.value]"
+                        "value": "[reference('ui-app-insights').outputs.AppInsightsResourceId.value]"
                     }
                 }
             }
